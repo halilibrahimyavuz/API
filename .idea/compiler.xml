@@ -6,10 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Batch44Api" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
