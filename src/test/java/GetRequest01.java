@@ -31,7 +31,7 @@ public class GetRequest01 {
 
         response = given().when().get(url);
 
-      //  response.jsonPath().prettyPrint();
+        response.jsonPath().prettyPrint();
 
         System.out.println(response.getStatusCode());
         System.out.println(response.getStatusLine());
@@ -46,6 +46,7 @@ public class GetRequest01 {
 
 
     }
+
 
 
 

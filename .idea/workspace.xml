@@ -4,41 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0c02782-4ac1-4d0b-8307-bec1d97de52f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/nilApi/GetRequest01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/nilApi/GetRequest02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="b0c02782-4ac1-4d0b-8307-bec1d97de52f" name="Changes" comment="api">
+      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PostRequest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PostRequest04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PutRequest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PutRequest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PutRequest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PutRequest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectMapperTestWithMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectMapperTestWithMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectMapperTestWithPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectMapperTestWithPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetRequest01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequest02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetRequest02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequest05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetRequest05.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequest06.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetRequest06.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequest07.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetRequest07.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequest08.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetRequest08.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequest09.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetRequest09.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequest10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetRequest10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequest11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetRequest11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nilApi/GetRequest02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/nilApi/GetRequest02.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,12 +56,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GetRequest01.getRequest01">
+  <component name="RunManager" selected="JUnit.GetRequest03.GetRequest">
     <configuration name="GetRequest01.getMethod01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GetRequest01" />
       <option name="METHOD_NAME" value="getMethod01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest01.getRequest002" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetRequest01" />
+      <option name="METHOD_NAME" value="getRequest002" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,31 +93,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest08.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetRequest02.getRequest002" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetRequest08" />
-      <option name="METHOD_NAME" value="get01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nilApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nilApi" />
+      <option name="MAIN_CLASS_NAME" value="nilApi.GetRequest02" />
+      <option name="METHOD_NAME" value="getRequest002" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest09.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetRequest03.GetRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetRequest09" />
-      <option name="METHOD_NAME" value="get01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequest10.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetRequest10" />
-      <option name="METHOD_NAME" value="get01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nilApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nilApi" />
+      <option name="MAIN_CLASS_NAME" value="nilApi.GetRequest03" />
+      <option name="METHOD_NAME" value="GetRequest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetRequest01.getRequest01" />
-        <item itemvalue="JUnit.GetRequest10.get01" />
+        <item itemvalue="JUnit.GetRequest03.GetRequest" />
+        <item itemvalue="JUnit.GetRequest02.getRequest002" />
+        <item itemvalue="JUnit.GetRequest01.getRequest002" />
         <item itemvalue="JUnit.GetRequest01.getMethod01" />
-        <item itemvalue="JUnit.GetRequest09.get01" />
-        <item itemvalue="JUnit.GetRequest08.get01" />
+        <item itemvalue="JUnit.GetRequest01.getRequest01" />
       </list>
     </recent_temporary>
   </component>
@@ -172,5 +156,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="api" />
+    <option name="LAST_COMMIT_MESSAGE" value="api" />
   </component>
 </project>
