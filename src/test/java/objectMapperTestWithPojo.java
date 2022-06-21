@@ -24,7 +24,7 @@ public class objectMapperTestWithPojo extends TestBase {
 
         response.prettyPrint();
         //Api den gelen Json datayı pojo class a çevirdik
-        Booking jsonToPojoApi=JsonUtil.convertJsonToJava(response.asString(),Booking.class);
+        Booking jsonToPojoApi=JsonUtil.convertJsonToJava(response.asString(), Booking.class);
         System.out.println(jsonToPojoApi);
         BookingDates bookingDates=new BookingDates("2019-08-22","2020-12-14");
         Booking booking=new Booking("Eric","Jackson",276,true,bookingDates,"Breakfast");

@@ -9,7 +9,7 @@ import java.net.Socket;
 
 import static io.restassured.RestAssured.given;
 
-public class PutRequest02 extends TestBase{
+public class PutRequest02 extends TestBase {
     /*1)spec03 kullanarak herhangi bir datayı update ediniz
       2)update edildiğini status code ve response vody ile verify ediniz.
 

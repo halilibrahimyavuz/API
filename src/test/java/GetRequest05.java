@@ -36,8 +36,8 @@ public class GetRequest05 {
                 statusCode(200).
                 contentType(ContentType.JSON).
                 body("firstname", Matchers.equalTo("Jim"),
-                        "totalprice",Matchers.equalTo(404),
-                        "bookingdates.checkin",Matchers.equalTo("2018-11-03"));
+                        "totalprice",Matchers.equalTo(987),
+                        "bookingdates.checkin",Matchers.equalTo("2019-03-10"));
 
 
 

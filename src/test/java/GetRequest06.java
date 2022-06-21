@@ -32,7 +32,7 @@ public class GetRequest06 extends TestBase {
     Response response=given().
                             spec(spec01).
                             when().
-                            get("/booking/5");
+                            get("/booking/1");
     response.prettyPrint();
 
     response.
@@ -41,11 +41,11 @@ public class GetRequest06 extends TestBase {
             statusCode(200).
             contentType(ContentType.JSON).
             body("firstname", equalTo("Mary"),
-                    "lastname",equalTo("Jones"),
-                    "totalprice",equalTo(367),
+                    "lastname",equalTo("Ericsson"),
+                    "totalprice",equalTo(926),
                     "depositpaid",equalTo(false),
-                    "bookingdates.checkin",equalTo("2019-07-27"),
-                    "bookingdates.checkout",equalTo("2020-11-22"));
+                    "bookingdates.checkin",equalTo("2019-02-20"),
+                    "bookingdates.checkout",equalTo("2020-08-08"));
 
 
 

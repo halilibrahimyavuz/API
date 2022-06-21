@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class GetRequest08 extends TestBase{
+public class GetRequest08 extends TestBase {
 
 
     /* positive scenario:
@@ -26,33 +26,31 @@ public class GetRequest08 extends TestBase{
 
             */
 
-
-
 @Test
     public void get01() {
     spec01.pathParam("bookingid",5);
     Response response = given().
-            spec(spec01).
-            when().
-            get("booking/{bookingid}");
+                        spec(spec01).
+                        when().
+                        get("booking/{bookingid}");
 
     response.prettyPrint();
 
     JsonPath json = response.jsonPath();
 
     System.out.println(json.getString("firstname"));
-    Assert.assertEquals("Firstname istenilen gibi değil", "Sally", json.getString("firstname"));
+    Assert.assertEquals("Firstname istenilen gibi değil", "Jim", json.getString("firstname"));
     System.out.println(json.getString("lastname"));
-    Assert.assertEquals("Lastname istenilen gibi değil", "Jackson", json.getString("lastname"));
+    Assert.assertEquals("Lastname istenilen gibi değil", "Jones", json.getString("lastname"));
     System.out.println(json.getInt("totalprice"));
-    Assert.assertEquals("totalprice istenilen gibi değil", 835, json.getInt("totalprice"));
+    Assert.assertEquals("totalprice istenilen gibi değil", 707, json.getInt("totalprice"));
     System.out.println(json.getBoolean("depositpaid"));
-    Assert.assertEquals("depositpaid istenilen gibi değil", true, json.getBoolean("depositpaid"));
+    Assert.assertEquals("depositpaid istenilen gibi değil", false, json.getBoolean("depositpaid"));
     System.out.println(json.getString("bookingdates"));//ikisi aynanda gelir [checkin:2017-12-10, checkout:2019-07-02]
 
     System.out.println(json.getString("bookingdates.checkin"));
-    Assert.assertEquals("Bookindates istenilen gibi değil", "2016-06-02", json.getString("bookingdates.checkin"));
+    Assert.assertEquals("Bookindates istenilen gibi değil", "2015-02-13", json.getString("bookingdates.checkin"));
     System.out.println(json.getString("bookingdates.checkout"));
-    Assert.assertEquals("Bookindates istenilen gibi değil", "2018-05-26", json.getString("bookingdates.checkout"));
+    Assert.assertEquals("Bookindates istenilen gibi değil", "2020-05-30", json.getString("bookingdates.checkout"));
 }
 }

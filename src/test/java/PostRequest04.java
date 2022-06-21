@@ -9,7 +9,7 @@ import java.util.Optional;
 
 import static io.restassured.RestAssured.*;
 
-public class PostRequest04 extends TestBase{
+public class PostRequest04 extends TestBase {
         /*
 accept type json olsun
 when POST request yolladığımda

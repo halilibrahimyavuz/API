@@ -9,7 +9,7 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class objectMapperTestWithMap extends  TestBase {
+public class objectMapperTestWithMap extends TestBase {
 
     @Test
     public void javaToJson(){

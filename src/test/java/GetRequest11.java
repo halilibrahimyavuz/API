@@ -7,7 +7,7 @@ import java.util.HashMap;
 
 import static io.restassured.RestAssured.given;
 
-public class GetRequest11 extends  TestBase{
+public class GetRequest11 extends TestBase {
     @Test
     public void get01(){
 
@@ -15,6 +15,8 @@ public class GetRequest11 extends  TestBase{
                 spec(spec03).
                 when().
                 get("/2");
+
+
 
        // response.prettyPrint();
 

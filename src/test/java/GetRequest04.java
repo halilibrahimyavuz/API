@@ -27,7 +27,7 @@ public class GetRequest04 {
      Response response= given().
                                 accept(ContentType.JSON).
                         when().
-                                get(" http://dummy.restapiexample.com/api/v1/employees");
+                                 get(" http://dummy.restapiexample.com/api/v1/employees");
 
      response.prettyPrint();
 

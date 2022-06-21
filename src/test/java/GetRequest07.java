@@ -5,7 +5,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertTrue;
 
-public class GetRequest07 extends  TestBase{
+public class GetRequest07 extends TestBase {
 
     //URL spec01 testbase ni kullan
     //datalar arasında firstname' i "Sara" olanı bul
@@ -14,7 +14,7 @@ public class GetRequest07 extends  TestBase{
     @Test
     public void get01(){
 
-        Response response=given().spec(spec01).when().get("/booking?firstname=Sara");
+        Response response=given().spec(spec01).when().get("/booking?firstname=Susan");
 
 
         response.prettyPrint();
@@ -27,7 +27,11 @@ public class GetRequest07 extends  TestBase{
 
         spec01.queryParams("firstname","Susan",
                 "depositpaid",true);
-        Response response=given().spec(spec01).get("/booking");
+
+        Response response=given().
+                             spec(spec01).
+                             get("/booking");
+
         response.prettyPrint();
         assertTrue(response.getBody().asString().contains("bookingid"));
 

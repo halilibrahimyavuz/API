@@ -10,7 +10,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class TestBase {
+public class  TestBase {
 
     protected RequestSpecification spec01;
     protected RequestSpecification spec02;

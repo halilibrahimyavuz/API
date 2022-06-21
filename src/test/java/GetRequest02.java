@@ -38,7 +38,7 @@ public class GetRequest02 {
       Response response=  given().
                 accept("application/json").
         when().
-                get("https://restful-booker.herokuapp.com/booking/1001");
+                get("https://restful-booker.herokuapp.com/booking/2");
       response.prettyPrint();
       response.
                 then().
@@ -59,12 +59,12 @@ public class GetRequest02 {
     public  void  get03(){
      Response response =   given().
                            when().
-                                get("https://restful-booker.herokuapp.com/booking/1");
+                                get("https://restful-booker.herokuapp.com/booking/50");
 
         response.prettyPrint();
-        Assert.assertEquals(404,response.getStatusCode());
         Assert.assertTrue(response.asString().contains("Not Found"));
         Assert.assertFalse(response.asString().contains("Suleyman"));
+        Assert.assertEquals(404,response.getStatusCode());
 
     }
 }

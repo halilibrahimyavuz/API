@@ -9,7 +9,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class GetRequest12 extends TestBase{
+public class GetRequest12 extends TestBase {
 
 @Test
     public void get01(){

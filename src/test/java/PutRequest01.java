@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class PutRequest01  extends  TestBase{
+public class PutRequest01  extends TestBase {
 
     @Test
     public void put01(){
