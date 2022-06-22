@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0c02782-4ac1-4d0b-8307-bec1d97de52f" name="Changes" comment="api">
-      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/nilApi/Dummy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/nilApi/PlaceHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetRequest01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/nilApi/GetRequest02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/nilApi/GetRequest02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/objectMapperTestWithMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectMapperTestWithMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nilApi/GetRequest03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/nilApi/GetRequest03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/objectMapperTestWithMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/objectMapperTestWithMap.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,43 +59,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GetRequest03.GetRequest">
-    <configuration name="GetRequest01.getMethod01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetRequest01" />
-      <option name="METHOD_NAME" value="getMethod01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequest01.getRequest002" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetRequest01" />
-      <option name="METHOD_NAME" value="getRequest002" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequest01.getRequest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nilApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nilApi" />
-      <option name="MAIN_CLASS_NAME" value="nilApi.GetRequest01" />
-      <option name="METHOD_NAME" value="getRequest01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GetRequest06.GEtReq">
     <configuration name="GetRequest02.getRequest002" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api" />
       <extension name="coverage">
@@ -125,13 +92,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetRequest04.GetReq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nilApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nilApi" />
+      <option name="MAIN_CLASS_NAME" value="nilApi.GetRequest04" />
+      <option name="METHOD_NAME" value="GetReq" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest05.GetR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nilApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nilApi" />
+      <option name="MAIN_CLASS_NAME" value="nilApi.GetRequest05" />
+      <option name="METHOD_NAME" value="GetR" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest06.GEtReq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nilApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nilApi" />
+      <option name="MAIN_CLASS_NAME" value="nilApi.GetRequest06" />
+      <option name="METHOD_NAME" value="GEtReq" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetRequest06.GEtReq" />
+        <item itemvalue="JUnit.GetRequest05.GetR" />
+        <item itemvalue="JUnit.GetRequest04.GetReq" />
         <item itemvalue="JUnit.GetRequest03.GetRequest" />
         <item itemvalue="JUnit.GetRequest02.getRequest002" />
-        <item itemvalue="JUnit.GetRequest01.getRequest002" />
-        <item itemvalue="JUnit.GetRequest01.getMethod01" />
-        <item itemvalue="JUnit.GetRequest01.getRequest01" />
       </list>
     </recent_temporary>
   </component>

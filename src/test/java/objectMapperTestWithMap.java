@@ -1,6 +1,5 @@
 import Utilities.JsonUtil;
 import io.restassured.response.Response;
-import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
