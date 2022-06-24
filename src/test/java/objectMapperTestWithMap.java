@@ -40,7 +40,7 @@ public class objectMapperTestWithMap extends TestBase {
 
         /*
          1)APi den gelen Json formatındaki datayı Map'e çevirdim
-         2)testcase de bana verilen datayı Map e çevireceğim
+              2)testcase de bana verilen datayı Map e çevireceğim
          3)1. adimda olusturugum Map'deki dataları karsılastırarak verify yapacağım
          */
         Map<String,Object> jsonToMapTestCase=new HashMap<>();
