@@ -8,6 +8,8 @@ public class PlaceHolder {
 
     protected RequestSpecification spec01;
 
+
+
     @Before
     public void setup(){
         spec01=new RequestSpecBuilder()

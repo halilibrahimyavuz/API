@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0c02782-4ac1-4d0b-8307-bec1d97de52f" name="Changes" comment="api">
-      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest11_JsonPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest11_MatcherClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/GetRequest12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/PostRequest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/PostRequest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/PostRequest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/PutRequest01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/nilApi/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/nilApi/Dummy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/nilApi/Herokuapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/nilApi/Herokuapp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testdata/HerOkuAppTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testdata/HerOkuAppTestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/nilApi/Dummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/nilApi/Dummy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/nilApi/Herokuapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/nilApi/Herokuapp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testdata/HerOkuAppTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testdata/HerOkuAppTestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/nilApi/PlaceHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/nilApi/PlaceHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nilApi/PostRequest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nilApi/PostRequest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testdata/PlaceHolderTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testdata/PlaceHolderTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/nilApi/PlaceHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/nilApi/PlaceHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nilApi/PostRequest02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/nilApi/PostRequest02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testdata/PlaceHolderTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testdata/PlaceHolderTestData.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,22 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostRequest02.post02">
-    <configuration name="GetRequest11_JsonPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nilApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nilApi" />
-      <option name="MAIN_CLASS_NAME" value="nilApi.GetRequest11_JsonPath" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PostRequest03.postReq03">
     <configuration name="GetRequest12.dummyGetReq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api" />
       <extension name="coverage">
@@ -150,13 +131,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostRequest03.postReq03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nilApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nilApi" />
+      <option name="MAIN_CLASS_NAME" value="nilApi.PostRequest03" />
+      <option name="METHOD_NAME" value="postReq03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostRequest03.postReq03" />
         <item itemvalue="JUnit.PostRequest02.post02" />
         <item itemvalue="JUnit.PostRequest01" />
         <item itemvalue="JUnit.PostRequest01.postReq" />
         <item itemvalue="JUnit.GetRequest12.dummyGetReq" />
-        <item itemvalue="JUnit.GetRequest11_JsonPath" />
       </list>
     </recent_temporary>
   </component>
