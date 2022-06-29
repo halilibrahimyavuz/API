@@ -2,6 +2,7 @@ package testdata;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.json.JSONObject;
 
 import java.util.HashMap;
 
@@ -29,5 +30,24 @@ public class HerOkuAppTestData {
 
 
         return expectedTestData  ;
+    }
+
+
+
+    public JSONObject setupTestRequestData(){
+
+        JSONObject bookingData=new JSONObject();
+        bookingData.put("checkin","2021-01-05");
+        bookingData.put("checkout","2021-01-10");
+
+        JSONObject expectedRequest=new JSONObject();
+        expectedRequest.put("lastname","halooo");
+        expectedRequest.put("firstname","salih-sare");
+        expectedRequest.put("totalprice",1000);
+        expectedRequest.put("depositpaid",false);
+        expectedRequest.put("bookingdates",bookingData);
+
+        return expectedRequest;
+
     }
 }
