@@ -35,6 +35,25 @@ public class PlaceHolderTestData {
 
     }
 
+    public JSONObject setupPatchRequestData(){  //PatchRequest01 clası ıcın
+
+        JSONObject requestData=new JSONObject();
+        requestData.put("title","API ÇALISMALIYIM");
+
+        return requestData;
+
+    }
+
+    public JSONObject setupPatchExpextedDATA(){    //PatchRequest01 clası ıcın
+        JSONObject expectedData=new JSONObject();
+        expectedData.put("userID",10);
+        expectedData.put("title","API ÇALISMALIYIM");
+        expectedData.put("completed",true);
+        expectedData.put("id",198);  //sadece yenı olusturmada sıstem kendı ıd atıyor degıstımelerde sabıt
+
+        return expectedData;
+    }
+
 
 
 }

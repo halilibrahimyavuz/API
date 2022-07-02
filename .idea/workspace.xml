@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0c02782-4ac1-4d0b-8307-bec1d97de52f" name="Changes" comment="api">
-      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/PostRequest03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/PutRequest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/DeleteRequest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/PatchRequest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testdata/DummyTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/nilApi/PlaceHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/nilApi/PlaceHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nilApi/PostRequest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nilApi/PostRequest02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testdata/PlaceHolderTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testdata/PlaceHolderTestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/nilApi/PlaceHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/nilApi/PlaceHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/nilApi/PostRequest02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/nilApi/PostRequest02.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testdata/PlaceHolderTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testdata/PlaceHolderTestData.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,10 +50,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -67,8 +64,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostRequest03.postReq03">
-    <configuration name="GetRequest12.dummyGetReq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DeleteRequest01.delete">
+    <configuration name="DeleteRequest01.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +74,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="nilApi" />
-      <option name="MAIN_CLASS_NAME" value="nilApi.GetRequest12" />
-      <option name="METHOD_NAME" value="dummyGetReq" />
+      <option name="MAIN_CLASS_NAME" value="nilApi.DeleteRequest01" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatchRequest01.patchreq01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nilApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nilApi" />
+      <option name="MAIN_CLASS_NAME" value="nilApi.PatchRequest01" />
+      <option name="METHOD_NAME" value="patchreq01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,22 +108,6 @@
       <option name="PACKAGE_NAME" value="nilApi" />
       <option name="MAIN_CLASS_NAME" value="nilApi.PostRequest01" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostRequest01.postReq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nilApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nilApi" />
-      <option name="MAIN_CLASS_NAME" value="nilApi.PostRequest01" />
-      <option name="METHOD_NAME" value="postReq" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeleteRequest01.delete" />
+        <item itemvalue="JUnit.PatchRequest01.patchreq01" />
         <item itemvalue="JUnit.PostRequest03.postReq03" />
         <item itemvalue="JUnit.PostRequest02.post02" />
         <item itemvalue="JUnit.PostRequest01" />
-        <item itemvalue="JUnit.PostRequest01.postReq" />
-        <item itemvalue="JUnit.GetRequest12.dummyGetReq" />
       </list>
     </recent_temporary>
   </component>
@@ -182,5 +179,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="api" />
     <option name="LAST_COMMIT_MESSAGE" value="api" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
