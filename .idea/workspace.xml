@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0c02782-4ac1-4d0b-8307-bec1d97de52f" name="Changes" comment="api">
-      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/DeleteRequest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/PatchRequest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testdata/DummyTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/PostRequestWithPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nilApi/PostRequestWithPojo_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/TodosPojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testdata/PlaceHolderTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testdata/PlaceHolderTestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testdata/PlaceHolderTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testdata/PlaceHolderTestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nilApi/DeleteRequest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/nilApi/DeleteRequest01.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeleteRequest01.delete">
+  <component name="RunManager" selected="JUnit.PostRequestWithPojo_2.PostPojo">
     <configuration name="DeleteRequest01.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api" />
       <extension name="coverage">
@@ -97,37 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostRequest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nilApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nilApi" />
-      <option name="MAIN_CLASS_NAME" value="nilApi.PostRequest01" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostRequest02.post02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nilApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nilApi" />
-      <option name="MAIN_CLASS_NAME" value="nilApi.PostRequest02" />
-      <option name="METHOD_NAME" value="post02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PostRequest03.postReq03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api" />
       <extension name="coverage">
@@ -144,13 +115,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostRequestWithPojo_2.PostPojo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nilApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nilApi" />
+      <option name="MAIN_CLASS_NAME" value="nilApi.PostRequestWithPojo_2" />
+      <option name="METHOD_NAME" value="PostPojo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostRequestWithPojo.pojo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nilApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nilApi" />
+      <option name="MAIN_CLASS_NAME" value="nilApi.PostRequestWithPojo" />
+      <option name="METHOD_NAME" value="pojo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostRequestWithPojo_2.PostPojo" />
+        <item itemvalue="JUnit.PostRequestWithPojo.pojo" />
         <item itemvalue="JUnit.DeleteRequest01.delete" />
         <item itemvalue="JUnit.PatchRequest01.patchreq01" />
         <item itemvalue="JUnit.PostRequest03.postReq03" />
-        <item itemvalue="JUnit.PostRequest02.post02" />
-        <item itemvalue="JUnit.PostRequest01" />
       </list>
     </recent_temporary>
   </component>
