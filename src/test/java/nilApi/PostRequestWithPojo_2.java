@@ -40,6 +40,7 @@ public class PostRequestWithPojo_2  extends Herokuapp {
         System.out.println("actualData = " + actualData);
 
         Assert.assertEquals(200,response.getStatusCode());
+
         Assert.assertEquals(bookingPojo.getFirstname(),actualData.getBooking().getFirstname());
         Assert.assertEquals(bookingPojo.getLastname(),actualData.getBooking().getLastname());
         Assert.assertEquals(bookingPojo.getTotalprice(),actualData.getBooking().getTotalprice());
